@@ -28,7 +28,7 @@ function getEndpoints(deviceAddress, endpoints)
   endpoints.addEndpoint("3", "Pressure sensor", endpointType.pressureSensor);
 }
 
-function validateDeviceAddress(address, result)
+function validateDeviceAddress(address, result) 
 {
   // This function allows you to validate the address of a device, when
   // the user is creating it. If your device has special validation rules
